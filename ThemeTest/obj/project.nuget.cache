@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MGg4iJAKokI=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\ThemeTest\\ThemeTest\\ThemeTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\123\\.nuget\\packages\\c1.win\\8.0.20241.672\\c1.win.8.0.20241.672.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\c1.win.themes\\8.0.20241.672\\c1.win.themes.8.0.20241.672.nupkg.sha512",
+    "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\c1.zip\\8.0.20241.6\\c1.zip.8.0.20241.6.nupkg.sha512"
+  ],
+  "logs": []
+}

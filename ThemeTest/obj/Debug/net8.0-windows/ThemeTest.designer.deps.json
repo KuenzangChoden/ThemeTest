@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "C1.Win/8.0.20241.672": {
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.8.dll": {
+            "assemblyVersion": "8.0.20241.672",
+            "fileVersion": "8.0.20241.672"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows7.0/ja/C1.Win.8.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "C1.Win.Themes/8.0.20241.672": {
+        "dependencies": {
+          "C1.Win": "8.0.20241.672",
+          "C1.Zip": "8.0.20241.6"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Themes.8.dll": {
+            "assemblyVersion": "8.0.20241.672",
+            "fileVersion": "8.0.20241.672"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows7.0/ja/C1.Win.Themes.8.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "C1.Zip/8.0.20241.6": {
+        "runtime": {
+          "lib/netstandard2.0/C1.Zip.dll": {
+            "assemblyVersion": "2.0.20241.6",
+            "fileVersion": "2.0.20241.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C1.Win/8.0.20241.672": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zf5WnCg1Faqnlvsf+n+MSUAAe6GGTWHX/JAV+Pr+vlZ+f4sfv6LVQvYXX0QZrD3hY8WlSQRXwWHurdv26dlZlQ==",
+      "path": "c1.win/8.0.20241.672",
+      "hashPath": "c1.win.8.0.20241.672.nupkg.sha512"
+    },
+    "C1.Win.Themes/8.0.20241.672": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9GR54lq1ev8X9hRz2uBJBpnxu8d21PR1QP0KEPlzfsrk5miSkS+VCoPuIDU6PdnQLa8XmzYx373oU9cRi1sX8A==",
+      "path": "c1.win.themes/8.0.20241.672",
+      "hashPath": "c1.win.themes.8.0.20241.672.nupkg.sha512"
+    },
+    "C1.Zip/8.0.20241.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EukwwdSTiB5Db+dmRRVVTJeU7bPo1gLulfLykoL0JmPYBK33/aaczp3qGiqgDjkvll6d957ANImRwtT196Wf1Q==",
+      "path": "c1.zip/8.0.20241.6",
+      "hashPath": "c1.zip.8.0.20241.6.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "C1.Win/8.0.20241.672": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/C1.Win.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows7.0/ja/C1.Win.8.resources.dll": {
+            "locale": "ja"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0-windows7.0/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.Themes/8.0.20241.672": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "8.0.20241.672",
+          "C1.Zip": "8.0.20241.6"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/C1.Win.Themes.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Themes.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows7.0/ja/C1.Win.Themes.8.resources.dll": {
+            "locale": "ja"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0-windows7.0/C1.Win.Themes.targets": {}
+        }
+      },
+      "C1.Zip/8.0.20241.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/C1.Zip.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/C1.Zip.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C1.Win/8.0.20241.672": {
+      "sha512": "Zf5WnCg1Faqnlvsf+n+MSUAAe6GGTWHX/JAV+Pr+vlZ+f4sfv6LVQvYXX0QZrD3hY8WlSQRXwWHurdv26dlZlQ==",
+      "type": "package",
+      "path": "c1.win/8.0.20241.672",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net462/C1.Win.targets",
+        "buildTransitive/net48/C1.Win.targets",
+        "buildTransitive/net6.0-windows7.0/C1.Win.targets",
+        "buildTransitive/net8.0-windows7.0/C1.Win.targets",
+        "c1.win.8.0.20241.672.nupkg.sha512",
+        "c1.win.nuspec",
+        "docs/readme.md",
+        "images/NuGetIcon.png",
+        "lib/net462/C1.Win.4.6.2.dll",
+        "lib/net462/C1.Win.4.6.2.xml",
+        "lib/net462/ja/C1.Win.4.6.2.resources.dll",
+        "lib/net48/C1.Win.4.8.dll",
+        "lib/net48/C1.Win.4.8.xml",
+        "lib/net48/ja/C1.Win.4.8.resources.dll",
+        "lib/net6.0-windows7.0/C1.Win.6.dll",
+        "lib/net6.0-windows7.0/C1.Win.6.xml",
+        "lib/net6.0-windows7.0/Design/WinForms/C1.Win.6.Design.Client.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/C1.Win.6.Design.Protocol.Client.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/C1.Win.6.Design.Protocol.Server.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/C1.Win.6.Design.Server.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/ja/C1.Win.6.Design.Client.resources.dll",
+        "lib/net6.0-windows7.0/ja/C1.Win.6.resources.dll",
+        "lib/net8.0-windows7.0/C1.Win.8.dll",
+        "lib/net8.0-windows7.0/C1.Win.8.xml",
+        "lib/net8.0-windows7.0/Design/WinForms/C1.Win.8.Design.Client.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/C1.Win.8.Design.Protocol.Client.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/C1.Win.8.Design.Protocol.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/C1.Win.8.Design.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/ja/C1.Win.8.Design.Client.resources.dll",
+        "lib/net8.0-windows7.0/ja/C1.Win.8.resources.dll",
+        "license.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Win.Themes/8.0.20241.672": {
+      "sha512": "9GR54lq1ev8X9hRz2uBJBpnxu8d21PR1QP0KEPlzfsrk5miSkS+VCoPuIDU6PdnQLa8XmzYx373oU9cRi1sX8A==",
+      "type": "package",
+      "path": "c1.win.themes/8.0.20241.672",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net6.0-windows7.0/C1.Win.Themes.targets",
+        "buildTransitive/net8.0-windows7.0/C1.Win.Themes.targets",
+        "c1.win.themes.8.0.20241.672.nupkg.sha512",
+        "c1.win.themes.nuspec",
+        "docs/readme.md",
+        "images/NuGetIcon.png",
+        "lib/net6.0-windows7.0/C1.Win.Themes.6.dll",
+        "lib/net6.0-windows7.0/C1.Win.Themes.6.xml",
+        "lib/net6.0-windows7.0/Design/WinForms/C1.Win.Themes.6.Design.Client.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/C1.Win.Themes.6.Design.Server.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/ja/C1.Win.Themes.6.Design.Client.resources.dll",
+        "lib/net6.0-windows7.0/ja/C1.Win.Themes.6.resources.dll",
+        "lib/net8.0-windows7.0/C1.Win.Themes.8.dll",
+        "lib/net8.0-windows7.0/C1.Win.Themes.8.xml",
+        "lib/net8.0-windows7.0/Design/WinForms/C1.Win.Themes.8.Design.Client.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/Server/C1.Win.Themes.8.Design.Server.dll",
+        "lib/net8.0-windows7.0/Design/WinForms/ja/C1.Win.Themes.8.Design.Client.resources.dll",
+        "lib/net8.0-windows7.0/ja/C1.Win.Themes.8.resources.dll",
+        "license.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Zip/8.0.20241.6": {
+      "sha512": "EukwwdSTiB5Db+dmRRVVTJeU7bPo1gLulfLykoL0JmPYBK33/aaczp3qGiqgDjkvll6d957ANImRwtT196Wf1Q==",
+      "type": "package",
+      "path": "c1.zip/8.0.20241.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "c1.zip.8.0.20241.6.nupkg.sha512",
+        "c1.zip.nuspec",
+        "docs/readme.md",
+        "images/NuGetIcon.png",
+        "lib/netstandard2.0/C1.Zip.dll",
+        "lib/netstandard2.0/C1.Zip.xml",
+        "license.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "C1.Win.Themes >= 8.0.20241.672"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\123\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WPF\\bin\\v8\\": {},
+    "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projects\\ThemeTest\\ThemeTest\\ThemeTest.csproj",
+      "projectName": "ThemeTest",
+      "projectPath": "D:\\projects\\ThemeTest\\ThemeTest\\ThemeTest.csproj",
+      "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\ThemeTest\\ThemeTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WPF\\bin\\v8\\",
+        "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "C1.Win.Themes": {
+            "target": "Package",
+            "version": "[8.0.20241.672, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
